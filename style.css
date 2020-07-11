@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(75, 75, 75);
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 10px;
+    font-size: 3.7em;
+    color: wheat;
+    text-shadow: 2px 0px 1px black , 0px 2px 1px black , -2px 0px 1px black , 0px -2px 1px black ,4px 4px 2px black;
+}
+.main{
+    width: 400px;
+    border: 10px double rgb(243, 221, 180);
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0px;
+    border-radius: 80px;
+    box-shadow: 0px 0px 3px 10px rgb(14, 14, 14);
+    background-color: rgb(15, 9, 9);
+}
+h2{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 42px;
+    color: rgb(243, 221, 180);
+}
+.hour , .min , .sec , .mili{
+    width: 58px;
+}
+.mili{
+    font-size: 36px;
+}
+.btnStart , .btnReset , .btnStop{
+    padding: 7px 10px;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 5px 10px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: rgb(243, 221, 180);
+    color: rgb(19, 19, 19);
+    border: 2px solid wheat;
+}
+.btnStart:focus , .btnReset:focus , .btnStop:focus{
+    outline: none;
+}
+.btnStop{
+    display: none;
+}
+.btnStart:hover , .btnReset:hover , .btnStop:hover{
+    cursor: pointer;
+}
+.btnStart:active , .btnReset:active , .btnStop:active{
+    background-color: rgb(238, 210, 54);
+}
